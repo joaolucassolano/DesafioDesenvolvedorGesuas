@@ -1,5 +1,7 @@
 # Desafio Desenvolvedor Gesuas
 
+## O Contexto
+
 ### Cenário
 
   O **NIS** (Número de Identificação Social) é um identificador único atribuído pela Caixa Econômica Federal aos cidadãos. Composto por 11 dígitos, é utilizado para realizar o pagamento de benefícios sociais, como chave de identificação nas Políticas Públicas, emissão de documentos, dentre outras utilidades.
