@@ -11,7 +11,7 @@
         $message= "Cadastro não encontrado!";
         echo "<script>window.location.href = '../frontend/?message=".$message."'</script>";
     }else{
-        $message = "Nome: ". $info['nome'] . ", NIS: " . $info['nis'].".";
+        $message = "<b>Nome:</b> ". $info['nome'] . ", <b>NIS:</b> " . $info['nis'].".";
         echo "<script>window.location.href = '../frontend/?message=".$message."'</script>";
     }
 ?>
