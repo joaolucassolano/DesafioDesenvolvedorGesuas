@@ -30,7 +30,7 @@
   O programa criará uma pasta 'htdocs' no caminho de instalação padrão, no meu caso 'C:\xampp\htdocs'. Nessa pasta (C:\xampp\htdocs) exclua o arquivo 'index.php'. Após isso clone/baixe o projeto para dentro dessa pasta.
   
 #### 2. Geração do Banco de Dados
-  O proximo passo será criar o banco de dados da aplicação. Para isso, baixe o arquivo 'cidadao.sql' presente no repositório. Após isso, abra o XAMPP, anteriormente instalado, dê start em 'Apache' e 'MySQL' e depois em 'Admin' referente ao 'MySQL', ao fim desse processo o seu XAMPP deverá estar parecido com o da imagem:
+  O proximo passo será criar o banco de dados da aplicação. Para isso, certifique-se de ter baixado o arquivo 'cidadao.sql' presente no repositório. Após isso, abra o XAMPP, anteriormente instalado, dê start em 'Apache' e 'MySQL' e depois em 'Admin' referente ao 'MySQL', ao fim desse processo o seu XAMPP deverá estar parecido com o da imagem:
   ![](https://user-images.githubusercontent.com/36817095/86969441-2cb1ad00-c144-11ea-96cd-8d2b594ab42e.png)
   
   Assim, uma janela no seu navegador deve abrir no site 'http://localhost/phpmyadmin/'. 
@@ -38,7 +38,7 @@
    
   ![](https://user-images.githubusercontent.com/36817095/86969854-ced19500-c144-11ea-8a6f-1fdbea0398cb.png)
    
-  Você será redirecionado para uma nova tela onde deverá preencher os campos de 'Database name' e 'Collation' com 'bddesafio' e 'uft8_swedish_ci', respectivamente, conforme a imagem. Após preencher corretamente, clique em 'Go' no canto inferior direito da página.
+  Você será redirecionado para uma nova tela onde deverá preencher os campos de 'Database name' e 'Collation' com 'bddesafio' e 'uft8_swedish_ci', respectivamente, conforme a imagem. Após preencher corretamente, clique em 'Create'.
   
   ![](https://user-images.githubusercontent.com/36817095/86970211-6800ab80-c145-11ea-8e92-31e3364a86c3.png)
 
@@ -54,7 +54,7 @@
   
 #### 3. Abrindo o sistema
 
-  Chegamos ao processo final. Agora que você já possui o códido no local correto e o banco de dados criado e executando, basta entrar no seu navegador no endereço 'http://localhost/', abrir a pasta onde clonou/baixou o código.
+  Chegamos ao processo final. Agora que você já possui o código no local correto e o banco de dados criado e executando, basta entrar no seu navegador no endereço 'http://localhost/', abrir a pasta onde clonou/baixou o código.
   
   Abra a pasta 'frontend'. 
   
