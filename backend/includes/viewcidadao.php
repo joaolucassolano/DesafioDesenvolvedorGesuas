@@ -8,18 +8,14 @@
             }
         }
 
-        public function showUnicCidadao($nis) {
+        public function showUniqueCidadao($nis) {
             $data = $this->getUniqueCidadao($nis);
-            echo $data['nome']."<br>";
-            echo $data['nis']."<br>";
-            
+            return $data;
         }
 
-        public function showMessageInsertCidadao($nome) {
+        public function insertCidadao($nome) {
             $data = $this->setCidadao($nome);
-            echo "Nome: ".$data['nome']."<br>";
-            echo "NIS: ".$data['nis'];
-            
+            return $data;
         }
     }
 

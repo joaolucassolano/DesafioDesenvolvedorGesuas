@@ -17,8 +17,8 @@
         protected function getUniqueCidadao($nis) {
             $sql = "SELECT * FROM cidadao where nis=$nis";
             $result = $this->connect()->query($sql);
-            $numRows = $result->num_rows;
-            if($numRows > 0){
+            $linhas=mysqli_num_rows($result); 
+            if($linhas != 0){
                 $data = $result->fetch_assoc();
                 return $data;
             }else{
