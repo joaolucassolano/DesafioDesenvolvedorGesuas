@@ -28,7 +28,7 @@
                         <div class="field">
                             <label for="nome">Nome:</label>
                             <div class="input">
-                                <input type="text" id="nome" name='nome' placeholder="Nome ..." require>
+                                <input type="text" id="nome" name='nome' placeholder="Informe o nome ..." require>
                             </div>
                         </div>
                         <button type='submit' class='button'>Cadastrar</button>
@@ -41,7 +41,7 @@
                         <div class="field">
                             <label for="nis">NIS:</label>
                             <div class="input">
-                                <input type="text" id="nis" name='nis' placeholder="NIS ..." require>
+                                <input type="text" id="nis" name='nis' placeholder="Informe o NIS ..." require>
                             </div>
                         </div>
                         <button type='submit' class='button'>Consultar</button>
